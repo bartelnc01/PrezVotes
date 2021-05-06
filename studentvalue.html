@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <meta name="author" content="Nickolas Bartel"/>
+      <meta name="keywords" content="student, voting, elections, Washington & Jefferson College, W&J, w&j, college, election">
+      <title>PrezVotes</title>
+      <link href="styles.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+      <link rel="icon" href="./assets/logo.png">
+    </head>
+  <body>
+    <header>
+      <nav>
+      <div class="logo"><img src="./assets/logo.png" alt="logo">
+      </div>
+          <ul class="nav-links">
+            <li class="dropbtn"><a href="index.html">Home</a></li>
+            <li class="dropdown"><a class="dropbtn">Voting Information</a>
+              <div class="dropdown-content">
+                <a href="register.html">Register to Vote</a>
+                <a href="absentee.html">Get an Absentee Ballot</a>
+                <a href="https://www.vote411.org/ballot" target="_blank" rel="noreferrer">Identify Candidates on My Ballot</a>
+                <a href="covidvoting.html">Voting during COVID-19</a>
+                <a href="https://www.isidewith.com/political-quiz" target="_blank" rel="noreferrer">Political Affiliation Quiz</a>
+                <a href="https://www.nass.org/can-i-vote/valid-forms-id" target="_blank">Voter ID Requirements</a>
+              </div>
+            </li>
+            <li class="dropbtn"><a href="primary2021.html">PA Primary Ballot Explained</a></li>
+            <li class="dropbtn"><a href="https://washjeff.co1.qualtrics.com/jfe/form/SV_aYoQOTLIby1pzPT" target="_blank">Join Us!</a></li>
+            <li class="dropdown">
+              <a class="dropbtn">Student Voting Data</a>
+              <div class="dropdown-content">
+                <a href="nsvle2018.html">National Student Voting Data 2018</a>
+                <a href="studentvalue.html">Student Vote by Congressional District</a>
+                <a href="wj2018nsvle.html">2014-18 W&J Data</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="dropbtn">Events & Activities</a>
+              <div class="dropdown-content">
+                <a href="http://bit.ly/SVCVote" target="_blank" rel="noreferrer">Instagram Voting Challenge</a>
+                <a href="voterforum.html">Student Voter Forum</a>
+                <a href="jan5thstatement.html">1/5/21 Joint Statement of Condemnation <br>on the Domestic Terrorist Attack<br> at the US Capitol</a>
+              </div>
+              <li class="dropbtn"><a href="constitution.html">Bylaws</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line 1"></div>
+                <div class="line 2"></div>
+                <div class="line 3"></div>
+            </div>
+        <script src="script.js"></script>
+      </nav>
+    </header>
+      <h1>Concentration of Student Voters<br/> by Congressional District </h1>
+      <div class="Student-Value">
+        <div class="Find-District">
+          <h1>What District Am I In?</h1>
+          <form action="https://ziplook.house.gov/htbin/findrep_house" target="_blank" rel="noopener" id="header-find-rep">
+            <label for="header-find-rep-zip-code">Enter your zip code:<input id="header-find-rep-zip-code" maxlength="10" name="ZIP" size="10" type="text" /></label>
+            <br>
+            <label>
+              <button type="submit">Submit</button>
+            </label>
+          </form>
+        </div>
+        <!--From Tufts University: NSLVE Data Portal, 2020 !-->
+        <iframe src="https://public.tableau.com/views/TheCollegeStudentsVotein2020MidtermElections/CongressionalDistrictLevel?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Fpublic.tableau.com%2F&%3Aembed_code_version=3&%3Atabs=yes&%3Atoolbar=yes&%3Aanimate_transition=yes&%3Adisplay_static_image=no&%3Adisplay_spinner=no&%3Adisplay_overlay=yes&%3Adisplay_count=yes&%3Alanguage=en&publish=yes&%3AloadOrderID=0"></iframe>
+    </div>
+    <footer>
+      <img src="./assets/banner-transparent.png" alt="W&J Student Voting Coalition">
+      <div class="social-media">
+        <a href="http://www.twitter.com/prezvotes"><img src="./assets/twitter-logo.png" alt="twitter logo"></a>
+        <a href="http://www.instagram.com/prezvotes"><img src="./assets/instagram-logo.png" alt="Instagram logo"></a>
+        <a href="mailto:prezvotes@gmail.com"><img src="./assets/email-logo.png" alt="Gmail logo"></a>
+      </div>
+      <p>Designed by: Nickolas Bartel, 2021</p>
+    </footer>
+  </body>
+</html>
