@@ -3,10 +3,11 @@ const navSlide = ()=>{
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll('.nav-links li')
 
+  nav.classList.add("nav-inactive");
+
   burger.addEventListener('click', () => {
+    nav.classList.remove('nav-inactive');
     nav.classList.toggle('nav-active');
-
-
     navLinks.forEach((link,index)=>{
       if(link.style.animation){
         link.style.animation = '';
