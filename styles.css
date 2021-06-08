@@ -301,7 +301,10 @@ footer img{
       transform: translateX(-100%) translateY(-12.5%);
       z-index: 3;
     }
-
+  .nav-inactive{
+    display: none;
+    transform: translateX(0%);
+  }
   .nav-active{
   transform: translateX(0%);
   }
