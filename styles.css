@@ -305,8 +305,12 @@ footer img{
     display: none;
     transform: translateX(0%);
   }
+  .nav-links{
+    display:none;
+  }
   .nav-active{
-  transform: translateX(0%);
+    display: block;
+    transform: translateX(0%);
   }
 @keyframes NavLinkFade{
   from{
