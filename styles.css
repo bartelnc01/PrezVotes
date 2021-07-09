@@ -369,7 +369,7 @@ h1{
       cursor: pointer;
       position: absolute;
       right: 10%;
-      top: 10%;
+      top: 20%;
     }
     .dropdown:hover .dropdown-content {
       display: block;
