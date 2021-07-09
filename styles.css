@@ -342,7 +342,7 @@ h1{
   font-size: 1.25em;
 }
 }
-@media screen and (max-width:4000px){
+@media screen and (max-width:1482px){
     body{
       overflow-x:hidden;
       margin-left: 0;
@@ -369,7 +369,7 @@ h1{
       cursor: pointer;
       position: absolute;
       right: 10%;
-      top: 20%;
+      top: 10%;
     }
     .dropdown:hover .dropdown-content {
       display: block;
