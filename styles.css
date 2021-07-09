@@ -267,6 +267,8 @@ footer img{
   justify-content: center;
 }
 
+font-size: 1.25em;
+}
 @media screen and (max-width:1482px){
     body{
       overflow-x:hidden;
@@ -312,7 +314,7 @@ footer img{
     display: block;
     transform: translateX(0%);
   }
-  ol li{
+  li a, .dropbtn {
   font-size: 1.25em;
 }
 @keyframes NavLinkFade{
