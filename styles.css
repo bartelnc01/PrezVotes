@@ -312,6 +312,9 @@ footer img{
     display: block;
     transform: translateX(0%);
   }
+  ol li{
+  font-size: 1.25em;
+}
 @keyframes NavLinkFade{
   from{
     opacity: 0;
